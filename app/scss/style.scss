@@ -184,14 +184,47 @@
 .conditions {
   margin-top: 56px;
 
+  &__count {
+    display: block;
+    margin-bottom: 11px;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 75px;
+    color: #000;
+  }
+
+  &__text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #0d1c41;
+  }
+
+  &__subtext {
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 28px;
+    font-style: italic;
+    color: #0d1c41;
+  }
+
   &__doctors,
   &__insurance {
     display: flex;
     margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+  }
 
-    &-descr {
-      padding: 0 140px;
-    }
+  &__insurance-descr {
+    width: 321px;
+  }
+
+  &__doctors-img {
+    padding-right: 247px;
+  }
+  &__insurance-img {
+    padding-right: 234px;
   }
 }
 
